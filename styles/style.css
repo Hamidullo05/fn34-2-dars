@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+bady {
+    font-family: 'Roboto';
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.header__container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+
+}
+nav {
+    margin-left: 60px;
+    margin-right: 381px;
+    align-items: center;
+    
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 49px;
+
+}
+ul a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0F0F0F;
+    
+}
+.button1 {
+    width: 154px;
+    height: 46px;
+    border: none;
+    border-radius: 30px;
+    background-color:#4194FD;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.button1:hover {
+    padding-top: 70px;
+    padding-bottom: 82px;
+    background-color: #2e78d7;
+}
+.hero__container {
+    background-image: url(../images/bac-img.png);
+}
+h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 24px;
+    padding-top: 70px;
+}
+.hero__info {
+    font-size: 48px;
+    font-weight: 600;
+    color:  #0F0F0F;
+    margin-bottom: 30px;
+}
+.hero__info span {
+    font-size: 48px;
+    font-weight: 600;
+    color:#1179FC;
+    
+}
+.hero__p {
+    font-size: 20px;
+    font-weight: 400;
+    color:  #3A3B3E;
+    margin-bottom: 100px;
+}
+.hero__link {
+    display: flex;
+    
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 24px;
+    
+}
+.hero__net {
+    display: flex;
+    width: 420px;
+    height: 133px;
+    border: none;
+    border-radius: 20px;
+    padding: 27px 80px 28px 40px;
+    background-color: #FFF;
+    align-items: center;
+    gap: 30px;
+    margin-left: 120px;
+
+}
+.net__info {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0F0F0F;
+    margin-bottom: 8px;
+}
+h5 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #4F5153;
+    
+}
+.hero__net1 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 82px;
+}
+.footer__container {
+    background-image: url(../images/image_1226.png);
+    padding-top:    138px;
+    padding-bottom: 137pxx;
+    background-color: #000;
+}
+.footer__container {
+    font-size: 30px;
+    color: #FFF;
+    margin-bottom: 48px;
+}
+.button2 {
+    width: 202px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+    border-radius: 7px;
+    background-color:  #1179FC;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 138px;
+    margin-top: 48px;
+}
+.button2:hover {
+    background-color: #245fab;
+}
+
